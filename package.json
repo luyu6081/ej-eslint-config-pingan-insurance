@@ -1,0 +1,17 @@
+{
+  "name": "@ej/eslint-config",
+  "version": "0.2.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./tester.js --config=index.js"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.0",
+    "eslint-plugin-vue": "^6.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=6.0.0",
+    "eslint-plugin-vue": ">=6.0.0"
+  }
+}
